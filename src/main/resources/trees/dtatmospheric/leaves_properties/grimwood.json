@@ -1,0 +1,5 @@
+{
+  "primitive_leaves": "atmospheric:grimwood_leaves",
+  "smother": 3,
+  "cell_kit": "dynamictrees:conifer"
+}

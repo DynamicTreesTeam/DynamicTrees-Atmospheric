@@ -1,0 +1,8 @@
+{
+	"parent": "dynamictrees:block/smartmodel/sapling",
+	"textures": {
+		"particle": "atmospheric:block/morado_leaves",
+		"log": "atmospheric:block/morado_log",
+		"leaves": "atmospheric:block/morado_leaves"
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "family": "dtatmospheric:kousa",
+  "tapering": 0.3,
+  "signal_energy": 12.0,
+  "growth_rate": 0.8,
+  "leaves_properties": "dtatmospheric:kousa",
+  "environment_factors" : {
+    "cold": 0.75,
+    "hot": 0.5,
+    "dry": 0.5,
+    "forest": 1.05
+  },
+  "perfect_biomes": { "types": [ "forest", "overworld" ] },
+  "primitive_sapling": "atmospheric:kousa_sapling"
+}

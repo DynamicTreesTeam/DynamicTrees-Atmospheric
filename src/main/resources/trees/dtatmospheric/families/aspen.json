@@ -1,0 +1,7 @@
+{
+  "common_leaves": "dtatmospheric:aspen",
+  "common_species": "dtatmospheric:aspen",
+  "primitive_log": "atmospheric:aspen_log",
+  "primitive_stripped_log": "atmospheric:stripped_aspen_log",
+  "max_branch_radius": 8
+}

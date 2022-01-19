@@ -1,0 +1,8 @@
+{
+	"parent": "dynamictrees:block/smartmodel/sapling",
+	"textures": {
+		"particle": "atmospheric:block/rosewood_leaves",
+		"log": "atmospheric:block/rosewood_log",
+		"leaves": "atmospheric:block/rosewood_leaves"
+	}
+}

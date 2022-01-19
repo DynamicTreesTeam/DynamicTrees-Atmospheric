@@ -1,0 +1,7 @@
+{
+  "common_leaves": "dtatmospheric:morado",
+  "common_species": "dtatmospheric:morado",
+  "primitive_log": "atmospheric:morado_log",
+  "primitive_stripped_log": "atmospheric:stripped_morado_log",
+  "max_branch_radius": 8
+}

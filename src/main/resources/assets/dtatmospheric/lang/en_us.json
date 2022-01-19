@@ -1,0 +1,22 @@
+{
+  "block.dtatmospheric.aspen_branch": "Aspen Tree",
+  "block.dtatmospheric.grimwood_branch": "Grimwood Tree",
+  "block.dtatmospheric.kousa_branch": "Kousa Tree",
+  "block.dtatmospheric.morado_branch": "Morado Tree",
+  "block.dtatmospheric.rosewood_branch": "Rosewood Tree",
+  "block.dtatmospheric.yucca_branch": "Yucca Tree",
+
+  "species.dtatmospheric.aspen": "Aspen",
+  "species.dtatmospheric.grimwood": "Grimwood",
+  "species.dtatmospheric.kousa": "Kousa",
+  "species.dtatmospheric.morado": "Morado",
+  "species.dtatmospheric.rosewood": "Rosewood",
+  "species.dtatmospheric.yucca": "Yucca",
+
+  "item.dtatmospheric.aspen_seed": "Aspen Catkin",
+  "item.dtatmospheric.grimwood_seed": "Grimwood Cone",
+  "item.dtatmospheric.kousa_seed": "Kousa Seeds",
+  "item.dtatmospheric.morado_seed": "Morado Pod",
+  "item.dtatmospheric.rosewood_seed": "Rosewood Pod",
+  "item.dtatmospheric.yucca_seed": "Yucca Capsule"
+}

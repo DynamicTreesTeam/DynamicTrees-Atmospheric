@@ -1,0 +1,8 @@
+{
+	"parent": "dynamictrees:block/smartmodel/sapling",
+	"textures": {
+		"particle": "atmospheric:block/yucca_leaves",
+		"log": "atmospheric:block/yucca_log",
+		"leaves": "atmospheric:block/yucca_leaves"
+	}
+}

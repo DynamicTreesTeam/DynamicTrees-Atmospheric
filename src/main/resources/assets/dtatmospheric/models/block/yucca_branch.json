@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "atmospheric:block/yucca_log",
+    "rings": "atmospheric:block/yucca_log_top"
+  }
+}

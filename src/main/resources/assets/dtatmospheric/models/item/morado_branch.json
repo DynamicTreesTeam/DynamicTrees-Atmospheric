@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "atmospheric:block/morado_log",
+    "rings": "atmospheric:block/morado_log_top"
+  }
+}

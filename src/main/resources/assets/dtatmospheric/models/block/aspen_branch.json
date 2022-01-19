@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "atmospheric:block/aspen_log",
+    "rings": "atmospheric:block/aspen_log_top"
+  }
+}

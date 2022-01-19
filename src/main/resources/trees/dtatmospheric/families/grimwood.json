@@ -1,0 +1,8 @@
+{
+  "common_leaves": "dtatmospheric:grimwood",
+  "common_species": "dtatmospheric:grimwood",
+  "primitive_log": "atmospheric:grimwood_log",
+  "primitive_stripped_log": "atmospheric:stripped_grimwood_log",
+  "max_branch_radius": 8,
+  "conifer_variants": true
+}

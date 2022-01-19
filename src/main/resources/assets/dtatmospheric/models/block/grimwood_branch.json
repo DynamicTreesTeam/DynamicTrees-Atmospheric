@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "atmospheric:block/grimwood_log",
+    "rings": "atmospheric:block/grimwood_log_top"
+  }
+}
