@@ -1,0 +1,6 @@
+{
+  "loader": "dtatmospheric:yucca_fronds",
+  "textures": {
+    "frond": "dtatmospheric:block/yucca_frond"
+  }
+}
