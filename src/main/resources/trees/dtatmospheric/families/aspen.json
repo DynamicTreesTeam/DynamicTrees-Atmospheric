@@ -6,5 +6,6 @@
   "primitive_stripped_log": "atmospheric:stripped_aspen_log",
   "primitive_watchful_log": "atmospheric:watchful_aspen_log",
   "watchful_branch_chance": 0.4,
-  "max_branch_radius": 8
+  "max_branch_radius": 8,
+  "conifer_variants": true
 }

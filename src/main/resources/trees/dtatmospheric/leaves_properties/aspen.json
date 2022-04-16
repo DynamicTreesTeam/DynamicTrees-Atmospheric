@@ -1,3 +1,4 @@
 {
-  "primitive_leaves": "atmospheric:aspen_leaves"
+  "primitive_leaves": "atmospheric:aspen_leaves",
+  "cell_kit": "dynamictrees:conifer"
 }
