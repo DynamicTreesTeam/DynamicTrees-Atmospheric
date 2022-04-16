@@ -6,6 +6,7 @@ import com.ferreusveritas.dynamictrees.deserialisation.PropertyAppliers;
 import com.ferreusveritas.dynamictrees.trees.Family;
 import com.google.gson.JsonElement;
 import maxhyper.dtatmospheric.DynamicTreesAtmospheric;
+import maxhyper.dtatmospheric.blocks.FloweringMoradoLeavesProperties;
 import maxhyper.dtatmospheric.blocks.ScruffyLeavesProperties;
 import maxhyper.dtatmospheric.trees.AspenFamily;
 import net.minecraft.block.Block;

@@ -25,7 +25,7 @@ public class FloweringMoradoLeavesProperties extends ScruffyLeavesProperties {
 
     @Override
     protected DynamicLeavesBlock createDynamicLeaves(final AbstractBlock.Properties properties) {
-        return new DynamicLeavesBlock(this, properties){
+        return new ScruffyDynamicLeavesBlock(this, properties){
             @OnlyIn(Dist.CLIENT)
             public void animateTick(BlockState stateIn, World worldIn, BlockPos pos, Random rand) {
                 super.animateTick(stateIn, worldIn, pos, rand);

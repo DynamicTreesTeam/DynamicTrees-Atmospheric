@@ -29,8 +29,16 @@ public class ScruffyLeavesProperties extends LeavesProperties {
 
     @Override
     protected DynamicLeavesBlock createDynamicLeaves(final AbstractBlock.Properties properties) {
-        return new DynamicLeavesBlock(this, properties){
-            public int getHydrationLevelFromNeighbors(IWorld world, BlockPos pos, LeavesProperties leavesProperties) {
+        return new ScruffyDynamicLeavesBlock(this, properties);
+    }
+
+    protected class ScruffyDynamicLeavesBlock extends DynamicLeavesBlock {
+
+        public ScruffyDynamicLeavesBlock(LeavesProperties leavesProperties, Properties properties) {
+            super(leavesProperties, properties);
+        }
+
+        public int getHydrationLevelFromNeighbors(IWorld world, BlockPos pos, LeavesProperties leavesProperties) {
                 int hydro = super.getHydrationLevelFromNeighbors(world, pos, leavesProperties);
                 if (hydro <= maxHydro){
                     int hash = CoordUtils.coordHashCode(pos, 2) % 1000;
@@ -39,6 +47,6 @@ public class ScruffyLeavesProperties extends LeavesProperties {
                 }
                 return hydro;
             }
-        };
     }
+
 }
