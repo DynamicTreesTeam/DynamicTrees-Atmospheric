@@ -6,10 +6,10 @@
   "growth_rate": 0.8,
   "leaves_properties": "dtatmospheric:aspen",
   "environment_factors" : {
-    "cold": 0.75,
-    "hot": 0.5,
-    "dry": 0.5,
-    "forest": 1.05
+    "cold": 1.1,
+    "hot": 0.2,
+    "dry": 0.4,
+    "forest": 0.9
   },
   "perfect_biomes": { "types": [ "forest", "overworld" ] },
   "primitive_sapling": "atmospheric:aspen_sapling"

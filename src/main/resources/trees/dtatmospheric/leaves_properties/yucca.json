@@ -1,3 +1,5 @@
 {
-  "primitive_leaves": "atmospheric:yucca_leaves"
+  "type": "dynamictrees:palm",
+  "primitive_leaves": "atmospheric:yucca_leaves",
+  "cell_kit": "dynamictrees:palm"
 }

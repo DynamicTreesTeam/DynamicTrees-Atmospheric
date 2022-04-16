@@ -7,6 +7,7 @@ import com.ferreusveritas.dynamictrees.blocks.rootyblocks.SoilProperties;
 import com.ferreusveritas.dynamictrees.init.DTConfigs;
 import com.ferreusveritas.dynamictrees.trees.Family;
 import com.ferreusveritas.dynamictrees.trees.Species;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.ISeedReader;
 import net.minecraft.world.gen.ChunkGenerator;
@@ -76,6 +77,10 @@ public class DynamicTreesAtmospheric
                 Species.REGISTRY,
                 LeavesProperties.REGISTRY
         );;
+    }
+
+    public static ResourceLocation resLoc (String name){
+        return new ResourceLocation(MOD_ID, name);
     }
 
 }

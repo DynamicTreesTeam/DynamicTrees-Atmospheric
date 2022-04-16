@@ -1,3 +1,7 @@
 {
-  "primitive_leaves": "atmospheric:morado_leaves"
+  "type": "dtatmospheric:scruffy",
+  "primitive_leaves": "atmospheric:morado_leaves",
+  "cell_kit": "dynamictrees:acacia",
+  "scruffy_leaf_chance": 0.66,
+  "scruffy_max_hydro": 2
 }

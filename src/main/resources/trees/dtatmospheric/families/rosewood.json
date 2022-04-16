@@ -3,5 +3,6 @@
   "common_species": "dtatmospheric:rosewood",
   "primitive_log": "atmospheric:rosewood_log",
   "primitive_stripped_log": "atmospheric:stripped_rosewood_log",
-  "max_branch_radius": 8
+  "max_branch_radius": 8,
+  "max_signal_depth": 64
 }
