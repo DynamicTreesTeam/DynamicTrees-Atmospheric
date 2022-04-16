@@ -1,6 +1,6 @@
 {
     "parent":"dynamictrees:item/standard_seed",
     "textures": {
-        "layer0":"dtupgradeaquatic:item/kousa_seed"
+        "layer0":"dtatmospheric:item/kousa_seed"
     }
 }

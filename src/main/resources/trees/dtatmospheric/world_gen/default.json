@@ -6,7 +6,7 @@
       "species" : {
         "method" : "splice_before",
         "random" : {
-          "dtupgradeaquatic:mulberry" : 1,
+          "dtatmospheric:mulberry" : 1,
           "..." : 5
         }
       },

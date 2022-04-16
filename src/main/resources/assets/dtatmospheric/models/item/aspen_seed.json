@@ -1,6 +1,6 @@
 {
     "parent":"dynamictrees:item/standard_seed",
     "textures": {
-        "layer0":"dtupgradeaquatic:item/aspen_seed"
+        "layer0":"dtatmospheric:item/aspen_seed"
     }
 }

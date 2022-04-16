@@ -1,6 +1,6 @@
 {
     "parent":"dynamictrees:item/standard_seed",
     "textures": {
-        "layer0":"dtupgradeaquatic:item/morado_seed"
+        "layer0":"dtatmospheric:item/morado_seed"
     }
 }

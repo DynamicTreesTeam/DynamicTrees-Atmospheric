@@ -2,6 +2,6 @@
   "loader": "dynamictrees:branch",
   "textures": {
     "bark": "atmospheric:block/watchful_aspen_log",
-    "rings": "atmospheric:block/watchful_aspen_log_top"
+    "rings": "atmospheric:block/aspen_log_top"
   }
 }
