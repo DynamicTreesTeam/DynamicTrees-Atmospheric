@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "maxhyper.dtatmospheric.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "dtatmospheric.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "dtatmospheric:river_leaves"
+    "dtatmospheric:aspen_leaves",
+    "dtatmospheric:flowering_morado_leaves",
+    "dtatmospheric:grimwood_leaves",
+    "dtatmospheric:kousa_leaves",
+    "dtatmospheric:morado_leaves",
+    "dtatmospheric:rosewood_leaves",
+    "dtatmospheric:yucca_leaves"
   ]
 }

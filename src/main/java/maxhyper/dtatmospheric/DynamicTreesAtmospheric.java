@@ -21,6 +21,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.annotation.Nonnull;
 import java.util.Random;
@@ -30,7 +32,7 @@ import java.util.Random;
 public class DynamicTreesAtmospheric
 {
     public static final String MOD_ID = "dtatmospheric";
-
+    public static final Logger LOGGER = LogManager.getLogger();
     public DynamicTreesAtmospheric() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::commonSetup);
@@ -69,14 +71,16 @@ public class DynamicTreesAtmospheric
     }
 
     public void gatherData(final GatherDataEvent event) {
-        GatherDataHelper.gatherAllData(
-                MOD_ID,
-                event,
-                SoilProperties.REGISTRY,
-                Family.REGISTRY,
-                Species.REGISTRY,
-                LeavesProperties.REGISTRY
-        );;
+        // GatherDataHelper.gatherAllData(
+        //         MOD_ID,
+        //         event,
+        //         SoilProperties.REGISTRY,
+        //         Family.REGISTRY,
+        //         Species.REGISTRY,
+        //         LeavesProperties.REGISTRY
+        // );;
+        GatherDataHelper. gatherTagData(MOD_ID, event);
+        GatherDataHelper.gatherLootData(MOD_ID, event);
     }
 
     public static ResourceLocation resLoc (String name){

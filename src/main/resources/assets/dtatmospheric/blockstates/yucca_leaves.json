@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "dtatmospheric:block/yucca_frond" }
+    "": { "model": "atmospheric:block/yucca_leaves" }
   }
 }

@@ -1,16 +1,92 @@
 [
   {
-    "_comment": "Generation for rivers. Has decent spawns of mulberry trees",
-    "select": { "types" : [ "river", "!snowy" ] },
+    "__comment": "Cancel standard tree features from the overworld.",
+    "select": {
+      "name": "atmospheric:.*"
+    },
+    "cancellers": {
+      "types": [
+        "tree","dtatmospheric:astree"
+      ],
+      "namespaces": [
+        "minecraft",
+        "atmospheric"
+      ]
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:.*rainforest.*"
+    },
     "apply": {
-      "species" : {
-        "method" : "splice_before",
-        "random" : {
-          "dtatmospheric:mulberry" : 1,
-          "..." : 5
+      "species": {
+        "random": {
+          "dtatmospheric:morado": 1,
+          "dtatmospheric:rosewood": 1
         }
       },
-      "chance": 0.1
+      "density": [
+        0.8
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  }, {
+  "select": {
+    "name": "atmospheric:.*dunes.*"
+  },
+  "apply": {
+    "species": {
+      "random": {
+        "dtatmospheric:yucca": 1
+      }
+    },
+    "density": [
+      0.2
+    ],
+    "chance": 1.0,
+    "forestness": 1.0
+  }
+},{
+  "select": {
+    "type": "dry"
+  },
+  "apply": {
+    "species": {
+      "method": "splice_before",
+      "random": {
+        "dtatmospheric:aspen": 1,
+        "...": 15
+      }
+    }
+  }
+},
+  {
+    "select": {
+      "type": "swamp"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtatmospheric:grimwood": 1,
+          "...": 10
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "OR": [{"types": ["hills","forest"]},{"types": ["mountain","forest"]}]
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtatmospheric:kousa": 1,
+          "...": 10
+        }
+      }
     }
   }
 ]

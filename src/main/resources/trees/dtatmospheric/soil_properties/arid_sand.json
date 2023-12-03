@@ -1,0 +1,6 @@
+{
+    "primitive_soil":"atmospheric:arid_sand",
+    "acceptable_soils":[
+        "sand_like"
+    ]
+}
