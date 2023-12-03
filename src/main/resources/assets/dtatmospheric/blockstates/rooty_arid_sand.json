@@ -1,0 +1,14 @@
+{
+    "multipart":[
+        {
+            "apply":{
+                "model":"atmospheric:block/arid_sand"
+            }
+        },
+        {
+            "apply":{
+                "model":"dynamictrees:block/roots"
+            }
+        }
+    ]
+}

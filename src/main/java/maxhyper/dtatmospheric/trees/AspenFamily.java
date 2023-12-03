@@ -37,7 +37,7 @@ public class AspenFamily extends Family {
         super.setupBlocks();
 
         this.altBranchBlock = setupBranch(
-                createBranch(getBranchRegName("watchful_")),
+                createBranch(getBranchName("watchful_")),
                 true
         );
     }

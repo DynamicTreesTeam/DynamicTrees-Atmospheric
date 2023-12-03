@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "dtatmospheric:mulberry_seed"
+    "dtatmospheric:aspen_seed",
+    "dtatmospheric:grimwood_seed",
+    "dtatmospheric:kousa_seed",
+    "dtatmospheric:morado_seed",
+    "dtatmospheric:rosewood_seed",
+    "dtatmospheric:yucca_seed"
   ]
 }
