@@ -1,0 +1,9 @@
+[
+  {
+    "select": { "name": "atmospheric.*" },
+    "cancellers": {
+      "types": [ "tree" ],
+      "namespaces": ["atmospheric", "blueprint", "minecraft"]
+    }
+  }
+]

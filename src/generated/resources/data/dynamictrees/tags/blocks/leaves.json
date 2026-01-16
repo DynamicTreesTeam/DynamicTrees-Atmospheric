@@ -1,6 +1,13 @@
 {
-  "replace": false,
   "values": [
-    "dtatmospheric:river_leaves"
+    "dtatmospheric:laurel_leaves",
+    "dtatmospheric:dry_laurel_leaves",
+    "dtatmospheric:alt_green_aspen_leaves",
+    "dtatmospheric:flowering_morado_leaves",
+    "dtatmospheric:aspen_leaves",
+    "dtatmospheric:morado_leaves",
+    "dtatmospheric:yucca_leaves",
+    "dtatmospheric:green_aspen_leaves",
+    "dtatmospheric:alt_aspen_leaves"
   ]
 }

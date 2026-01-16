@@ -1,35 +1,29 @@
 {
   "family": "dtatmospheric:morado",
-  "tapering": 0.35,
-  "signal_energy": 14.0,
-  "growth_rate": 1.1,
-  "up_probability": 4,
+  "generate_seed": true,
+  "generate_sapling": true,
+  "tapering": 0.15,
+  "signal_energy": 15.0,
+  "up_probability": 5,
   "lowest_branch_height": 4,
+  "growth_rate": 0.8,
   "leaves_properties": "dtatmospheric:morado",
-  "growth_logic_kit": {
-    "name": "dtatmospheric:twisting",
-    "properties": {
-      "height_variation": 1,
-      "chance_to_split": 0.005,
-      "chance_to_split_ends": 0.2
-    }
+  "growth_logic_kit": "azalea",
+  "perfect_biomes": {
+    "name": "atmospheric:rainforest.*"
   },
-  "environment_factors" : {
-    "cold": 0.75,
-    "hot": 0.5,
-    "dry": 0.5,
-    "forest": 1.05
-  },
-  "perfect_biomes": { "types": [ "forest", "overworld" ] },
   "primitive_sapling": "atmospheric:morado_sapling",
-  "features": [
+  "features" : [
     {
       "name": "alt_leaves",
       "properties": {
         "alternative_leaves": "dtatmospheric:flowering_morado",
-        "place_chance": 0.6
+        "place_chance": 0.8,
+        "quantity": 10
       }
-    },
-    "bee_nest"
-  ]
+    }
+  ],
+  "lang_overrides": {
+    "seed": "Morado Seed"
+  }
 }

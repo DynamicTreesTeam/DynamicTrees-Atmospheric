@@ -1,6 +1,8 @@
 {
-  "replace": false,
   "values": [
-    "dtatmospheric:river_branch"
+    "dtatmospheric:laurel_branch",
+    "dtatmospheric:aspen_branch",
+    "dtatmospheric:morado_branch",
+    "dtatmospheric:yucca_branch"
   ]
 }

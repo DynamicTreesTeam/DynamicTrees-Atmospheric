@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "atmospheric:block/laurel_log",
+    "rings": "atmospheric:block/laurel_log_top"
+  }
+}

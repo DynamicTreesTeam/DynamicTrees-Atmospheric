@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "atmospheric:block/crustose"
+      }
+    },
+    {
+      "apply": {
+        "model": "dynamictrees:block/roots"
+      }
+    }
+  ]
+}

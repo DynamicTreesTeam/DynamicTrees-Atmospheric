@@ -1,0 +1,7 @@
+{
+  "common_leaves": "dtatmospheric:kousa",
+  "common_species": "dtatmospheric:kousa",
+  "primitive_log": "atmospheric:kousa_log",
+  "primitive_stripped_log": "atmospheric:stripped_kousa_log",
+  "max_branch_radius": 8
+}

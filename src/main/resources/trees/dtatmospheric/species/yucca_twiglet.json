@@ -1,0 +1,10 @@
+{
+  "type": "dtaddon_lib:twiglet",
+  "family": "dtatmospheric:yucca",
+  "leaves_properties": "dtatmospheric:yucca",
+  "signal_energy": 1.0,
+  "lowest_branch_height": 1,
+  "growth_logic_kit": "palm",
+  "generate_seed": false,
+  "generate_sapling": false
+}

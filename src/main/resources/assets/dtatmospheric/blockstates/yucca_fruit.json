@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "age=0": { "model": "dtatmospheric:block/fruit/yucca_fruit_age0" },
+    "age=1": { "model": "dtatmospheric:block/fruit/yucca_fruit_age1" },
+    "age=2": { "model": "dtatmospheric:block/fruit/yucca_fruit_age2" },
+    "age=3": { "model": "dtatmospheric:block/fruit/yucca_fruit_age3" }
+  }
+}

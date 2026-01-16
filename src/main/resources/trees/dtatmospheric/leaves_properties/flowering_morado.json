@@ -1,7 +1,6 @@
 {
-  "type": "dtatmospheric:flowering_morado",
   "primitive_leaves": "atmospheric:flowering_morado_leaves",
   "cell_kit": "dynamictrees:acacia",
-  "scruffy_leaf_chance": 0.66,
-  "scruffy_max_hydro": 1
+  "smother": 2,
+  "has_tick_particles": true
 }

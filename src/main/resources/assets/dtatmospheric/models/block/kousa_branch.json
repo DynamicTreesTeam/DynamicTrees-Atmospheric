@@ -1,7 +1,0 @@
-{
-  "loader": "dynamictrees:branch",
-  "textures": {
-    "bark": "atmospheric:block/kousa_log",
-    "rings": "atmospheric:block/kousa_log_top"
-  }
-}

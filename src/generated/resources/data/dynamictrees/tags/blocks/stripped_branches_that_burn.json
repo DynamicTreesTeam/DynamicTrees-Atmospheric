@@ -1,6 +1,8 @@
 {
-  "replace": false,
   "values": [
-    "dtatmospheric:stripped_river_branch"
+    "dtatmospheric:stripped_laurel_branch",
+    "dtatmospheric:stripped_aspen_branch",
+    "dtatmospheric:stripped_morado_branch",
+    "dtatmospheric:stripped_yucca_branch"
   ]
 }

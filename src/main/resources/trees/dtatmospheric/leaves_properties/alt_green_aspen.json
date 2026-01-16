@@ -1,0 +1,8 @@
+{
+  "type": "scruffy",
+  "primitive_leaves": "atmospheric:green_aspen_leaves",
+  "cell_kit": "dtaddon_lib:poplar",
+  "smother": 12,
+  "connect_any_radius": true,
+  "light_requirement": 10
+}

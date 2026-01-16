@@ -1,0 +1,6 @@
+{
+  "parent": "dynamictrees:item/standard_seed",
+  "textures": {
+    "layer0": "dtatmospheric:item/green_aspen_seed"
+  }
+}

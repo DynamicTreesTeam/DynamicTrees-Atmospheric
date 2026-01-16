@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "atmospheric:crustose",
+  "acceptable_soils": [ "dirt_like" ]
+}

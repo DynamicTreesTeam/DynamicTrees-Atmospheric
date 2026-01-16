@@ -1,0 +1,33 @@
+aspen -> side vines (rare + alt branches)
+aspen alt branch -> use golden oak alt branch
+green aspen -> side vines (rare)
+yucca -> flowers on leaves + yucca bundle (hanging fruit)
+yucca_twiglet -> flowers on leaves
+currant -> hanging currant
+kousa -> passion vine (rare)
+rosewood -> passion vine (rare)
+laurel -> side vines
+dry_laurel_vines -> side vines
+morado -> leaves particules
+
+
+wooded badlands -> +yucca
+
+
+
+fieldsproot aether
+canopy_spruce terralith
+mirage terralith
+
+atmospheric :
+DONE - aspen -> dtbop:magic_poplar (growth (with type:scruffy from dtbwg) + leaves)
+yucca -> dtru:joshua (growth edits)
+kousa -> dtnatures_spirit:olive (growth)
+rosewood ->
+grimmwood ->
+DONE - morado -> dtru:magnolia (growth)
+DONE (need check vines) - laurel + dry laurel
+
+environmental :
+pine -> dtnatures_spirit:sugi (growth)
+wisteria -> dtnatures_spirit:olive (growth)

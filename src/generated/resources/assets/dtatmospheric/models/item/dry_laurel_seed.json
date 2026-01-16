@@ -1,0 +1,6 @@
+{
+  "parent": "dynamictrees:item/standard_seed",
+  "textures": {
+    "layer0": "dtatmospheric:item/dry_laurel_seed"
+  }
+}

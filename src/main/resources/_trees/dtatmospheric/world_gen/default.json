@@ -1,0 +1,199 @@
+[
+  {
+    "select": {
+      "name": "atmospheric:aspen_parkland"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtatmospheric:morado_undergrowth": 1,
+          "dtatmospheric:aspen": 3,
+          "dtatmospheric:green_aspen": 3,
+          "dtatmospheric:dry_laurel": 1
+        }
+      },
+      "density": [ 2.0, 0.3 ],
+      "chance": 1,
+      "forestness": 1
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:dunes"
+    },
+    "apply": {
+      "species": {
+          "dtatmospheric:yucca"
+      },
+      "density": 0.4,
+      "chance": 0.3
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:flourishing_dunes"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtatmospheric:yucca": 1,
+          "dtatmospheric:yucca_twiglet": 5
+        }
+      },
+      "density": 1.2,
+      "chance": 1
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:kousa_jungle"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dynamictrees:birch": 1,
+          "dtatmospheric:birch_undergrowth": 3,
+          "dtatmospheric:currant": 1,
+          "dtatmospheric:kousa": 3
+        }
+      },
+      "density": [ 2.0, 0.3 ],
+      "chance": 1,
+      "forestness": 1
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:laurel_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtatmospheric:laurel": 1,
+          "dtatmospheric:dry_laurel_vines": 1
+        }
+      },
+      "density": 1.2,
+      "chance": 1,
+      "forestness": 1
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:rainforest.*"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtatmospheric:rosewood": 8,
+          "dynamictrees:oak_undergrowth": 5,
+          "dtatmospheric:morado_undergrowth": 5,
+          "dtatmospheric:morado": 1
+        }
+      },
+      "density": 0.9,
+      "chance": 0.6,
+      "forestness": 1
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:rocky_dunes"
+    },
+    "apply": {
+      "species": {
+          "dtatmospheric:yucca"
+      },
+      "density": 0.1,
+      "chance": 0.1
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:.*scrubland"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtatmospheric:dry_laurel": 1,
+          "dtatmospheric:yucca_twiglet": 1,
+          "dtatmospheric:dry_laurel_twiglet": 1,
+          "dtatmospheric:morado_undergrowth": 1
+        }
+      },
+      "density": 0.5,
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:sparse_rainforest.*"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtatmospheric:rosewood": 8,
+          "dynamictrees:oak_undergrowth": 5,
+          "dtatmospheric:morado_undergrowth": 5,
+          "dtatmospheric:morado": 1
+        }
+      },
+      "density": 0.4,
+      "chance": 0.4,
+      "forestness": 0.8
+    }
+  },
+  {
+    "select": {
+      "name": "atmospheric:spiny_thicket"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtatmospheric:rosewood": 2,
+          "dtatmospheric:yucca_twiglet": 1
+        }
+      },
+      "density": 0.5,
+      "chance": 0.4
+    }
+  },
+
+
+
+
+  {
+    "only_if_loaded": "dynamictreesplus",
+    "select": "atmospheric:.*scrubland",
+    "apply": {
+      "species": {
+        "random": {
+          "dtatmospheric:dry_laurel": 1,
+          "dtatmospheric:yucca_twiglet": 1,
+          "dtatmospheric:dry_laurel_twiglet": 1,
+          "dtatmospheric:morado_undergrowth": 1,
+          "dynamictreesplus:pillar_cactus": 1,
+          "dynamictreesplus:pipe_cactus": 1,
+          "dynamictreesplus:saguaro_cactus": 1
+        }
+      },
+      "density": 0.5,
+      "chance": 0.4
+    }
+  },
+  {
+    "only_if_loaded": "dynamictreesplus",
+    "select": "atmospheric:spiny_thicket",
+    "apply": {
+      "species": {
+        "random": {
+          "dtatmospheric:rosewood": 2,
+          "dtatmospheric:yucca_twiglet": 1,
+          "dynamictreesplus:pillar_cactus": 8
+        }
+      },
+      "density": 0.5,
+      "chance": 0.4
+    }
+  }
+]

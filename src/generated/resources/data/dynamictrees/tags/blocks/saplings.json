@@ -1,6 +1,10 @@
 {
-  "replace": false,
   "values": [
-    "dtatmospheric:mulberry_sapling"
+    "dtatmospheric:laurel_sapling",
+    "dtatmospheric:dry_laurel_sapling",
+    "dtatmospheric:aspen_sapling",
+    "dtatmospheric:morado_sapling",
+    "dtatmospheric:yucca_sapling",
+    "dtatmospheric:green_aspen_sapling"
   ]
 }

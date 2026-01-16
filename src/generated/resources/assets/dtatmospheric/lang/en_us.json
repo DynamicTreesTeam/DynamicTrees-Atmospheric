@@ -1,0 +1,20 @@
+{
+  "block.dtatmospheric.aspen_branch": "Aspen Tree",
+  "block.dtatmospheric.laurel_branch": "Laurel Tree",
+  "block.dtatmospheric.morado_branch": "Morado Tree",
+  "block.dtatmospheric.yucca_branch": "Yucca Tree",
+  "item.dtatmospheric.aspen_seed": "Aspen Catkin",
+  "item.dtatmospheric.dry_laurel_seed": "Dry Laurel Seed",
+  "item.dtatmospheric.green_aspen_seed": "Green Aspen Catkin",
+  "item.dtatmospheric.laurel_seed": "Laurel Seed",
+  "item.dtatmospheric.morado_seed": "Morado Seed",
+  "item.dtatmospheric.yucca_seed": "Yucca Seed",
+  "species.dtatmospheric.aspen": "Aspen",
+  "species.dtatmospheric.dry_laurel": "Dry Laurel",
+  "species.dtatmospheric.green_aspen": "Green Aspen",
+  "species.dtatmospheric.laurel": "Laurel",
+  "species.dtatmospheric.morado": "Morado",
+  "species.dtatmospheric.morado_undergrowth": "Morado Undergrowth",
+  "species.dtatmospheric.yucca": "Yucca",
+  "species.dtatmospheric.yucca_twiglet": "Yucca Twiglet"
+}
